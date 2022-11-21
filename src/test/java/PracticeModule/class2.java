@@ -12,7 +12,7 @@ public class class2 extends Base
 	@Test(groups = "regression")
 	public void Test2()
 	{
-		 System.out.println(" regression2");
+		 System.out.println(" regression222");
 	}
 	@Test(groups = "smoke")
 	public void Test3()
