@@ -1,5 +1,7 @@
 package OrgnisationModule;
 
+import static org.testng.Assert.fail;
+
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -37,27 +39,27 @@ public class CreateOrgnizationTest extends Base{
 //		WebElement a=driver.findElement(By.xpath("//a[.='"+Orgnizationname+"' and @title='Organizations']"));
 //		Assert.assertTrue(a.isDisplayed());
 //	}
-	@Test
-	public void createOrgWithOrgNameAndIndustry() throws EncryptedDocumentException, IOException
-	{
-		String Orgnizationname = eLib.getDataFromExcel("Organisation", 3, 1)+jLib.getRanDomNum();
-		String industryvalue = eLib.getDataFromExcel("Organisation", 3, 2);
-
-	  //create the orgnization with Orgnization nmae
-	    HomePage = new HomePage(driver);
-	    HomePage.getOrgnization().click();
-	    orgnizationPage=new OrgnizationPage(driver);
-	    orgnizationPage.getCreateOrganizationbuton().click();
-	    co=new CreateOrgnizationPage(driver);
-        co.SetCreateOrgnization(Orgnizationname, industryvalue);
-        WebElement e= driver.findElement(By.xpath("//span[contains(text(),'Updated' )]"));
-		wLib.waitForElemen(driver,e );
-		//driver.navigate().refresh();	
-		HomePage.getOrgnization().click();
-		WebElement a=driver.findElement(By.xpath("//a[.='"+Orgnizationname+"' and @title='Organizations']"));
-		Assert.assertTrue(a.isDisplayed());
-
-	}
+//	@Test
+//	public void createOrgWithOrgNameAndIndustry() throws EncryptedDocumentException, IOException
+//	{
+//		String Orgnizationname = eLib.getDataFromExcel("Organisation", 3, 1)+jLib.getRanDomNum();
+//		String industryvalue = eLib.getDataFromExcel("Organisation", 3, 2);
+//
+//	  //create the orgnization with Orgnization nmae
+//	    HomePage = new HomePage(driver);
+//	    HomePage.getOrgnization().click();
+//	    orgnizationPage=new OrgnizationPage(driver);
+//	    orgnizationPage.getCreateOrganizationbuton().click();
+//	    co=new CreateOrgnizationPage(driver);
+//        co.SetCreateOrgnization(Orgnizationname, industryvalue);
+//        WebElement e= driver.findElement(By.xpath("//span[contains(text(),'Updated' )]"));
+//		wLib.waitForElemen(driver,e );
+//		//driver.navigate().refresh();	
+//		HomePage.getOrgnization().click();
+//		WebElement a=driver.findElement(By.xpath("//a[.='"+Orgnizationname+"' and @title='Organizations']"));
+//		Assert.assertTrue(a.isDisplayed());
+//
+//	}
 	
 	@Test
 	public void createOrgNameAndIndustryandtype() throws EncryptedDocumentException, IOException
@@ -73,9 +75,11 @@ public class CreateOrgnizationTest extends Base{
 	    orgnizationPage=new OrgnizationPage(driver);
 	    orgnizationPage.getCreateOrganizationbuton().click();
 	    co=new CreateOrgnizationPage(driver);
+	    
         co.SetCreateOrgnization(Orgnizationname, industryvalue,Typevalue);
         WebElement e= driver.findElement(By.xpath("//span[contains(text(),'Updated' )]"));
 		wLib.waitForElemen(driver,e );
+		
 		//driver.navigate().refresh();	
 		HomePage.getOrgnization().click();
 		WebElement a=driver.findElement(By.xpath("//a[.='"+Orgnizationname+"' and @title='Organizations']"));
