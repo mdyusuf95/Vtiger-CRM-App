@@ -1,6 +1,7 @@
 package com.vtiger.genriclibrary;
 
 import java.io.IOException;
+import java.sql.DriverManager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,6 +18,7 @@ import PageObjectRepositry.CreateOrgnizationPage;
 import PageObjectRepositry.HomePage;
 import PageObjectRepositry.LogInPage;
 import PageObjectRepositry.OrgnizationPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class Base {
@@ -41,17 +43,18 @@ public class Base {
 		System.out.println("------db connected----------");
 	}
 		
-	//    @Parameters("browser")
+	  @Parameters("Browser")
 		@BeforeClass(groups = {"smoke,regression"})
-		public void openBroswer(/*String browser*/ ) throws IOException
+		public void openBroswer(String Browser ) throws IOException
 		{   
-	       String  Browser=fLib.readDatafromPropertyFile("Browser");
+	       //String  Browser=fLib.readDatafromPropertyFile("Browser");
 			if(Browser.equalsIgnoreCase("chrome"))
-			{driver=new ChromeDriver();}
+			{driver=WebDriverManager.chromedriver().create();
+				}
 			else if(Browser.equalsIgnoreCase("firefox"))
-			{driver=new FirefoxDriver();}
+			{driver=WebDriverManager.firefoxdriver().create();}
 			else if(Browser.equalsIgnoreCase("edge"))
-			{driver=new EdgeDriver();}
+			{driver=WebDriverManager.edgedriver().create();}
 			else {Reporter.log ("invalid browser");}
 			sdriver=driver;
 			wLib.implicityWaitUntilPageLoad(driver, 20);

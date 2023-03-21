@@ -43,7 +43,7 @@ public class ListnerimplimationClass implements ITestListener {
 				
 				report.attachReporter(htmlreport);
 				report.setSystemInfo("Base_Browser","chrome");
-				report.setSystemInfo("OS","windows");
+				report.setSystemInfo("OS","windows10");
 				report.setSystemInfo("Base_url","jdbc:mysql://localhost:3306/testyantra");
 				report.setSystemInfo("ReporterName","yusuf");
 		
