@@ -20,82 +20,16 @@
       <![CDATA[createOrgNameAndIndustryandtype...>script executed successfullly]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-21T11:38:55 IST" name="Suite" finished-at="2023-03-21T11:39:37 IST" duration-ms="42324">
+  <suite started-at="2023-03-21T14:48:16 IST" name="Suite" finished-at="2023-03-21T14:48:55 IST" duration-ms="39008">
     <groups>
     </groups>
-    <test started-at="2023-03-21T11:38:55 IST" name="Test1" finished-at="2023-03-21T11:39:36 IST" duration-ms="41794">
+    <test started-at="2023-03-21T14:48:16 IST" name="Test2" finished-at="2023-03-21T14:48:54 IST" duration-ms="37605">
       <class name="OrgnisationModule.CreateOrgnizationTest">
-        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T11:38:55 IST" name="openBroswer" finished-at="2023-03-21T11:39:00 IST" duration-ms="5334" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBroswer -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T11:39:00 IST" name="Login" finished-at="2023-03-21T11:39:08 IST" duration-ms="7194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T11:39:08 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T11:39:34 IST" duration-ms="26811" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[createOrgNameAndIndustryandtype....TestScript Exiecution Started]]>
-            </line>
-            <line>
-              <![CDATA[createOrgNameAndIndustryandtype...>script executed successfullly]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOrgNameAndIndustryandtype -->
-        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T11:39:34 IST" name="CloseBroswer" finished-at="2023-03-21T11:39:36 IST" duration-ms="1993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBroswer -->
-      </class> <!-- OrgnisationModule.CreateOrgnizationTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-03-21T11:38:55 IST" name="Test3" finished-at="2023-03-21T11:39:36 IST" duration-ms="41689">
-      <class name="OrgnisationModule.CreateOrgnizationTest">
-        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T11:38:55 IST" name="openBroswer" finished-at="2023-03-21T11:39:05 IST" duration-ms="10148" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBroswer -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T11:39:05 IST" name="Login" finished-at="2023-03-21T11:39:11 IST" duration-ms="6080" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T11:39:11 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T11:39:36 IST" duration-ms="24293" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[createOrgNameAndIndustryandtype....TestScript Exiecution Started]]>
-            </line>
-            <line>
-              <![CDATA[createOrgNameAndIndustryandtype...>script executed successfullly]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOrgNameAndIndustryandtype -->
-        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T11:39:36 IST" name="CloseBroswer" finished-at="2023-03-21T11:39:36 IST" duration-ms="720" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBroswer -->
-      </class> <!-- OrgnisationModule.CreateOrgnizationTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2023-03-21T11:38:55 IST" name="Test2" finished-at="2023-03-21T11:39:37 IST" duration-ms="42324">
-      <class name="OrgnisationModule.CreateOrgnizationTest">
-        <test-method is-config="true" signature="connectDB()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T11:38:55 IST" name="connectDB" finished-at="2023-03-21T11:38:55 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T14:48:16 IST" name="connectDB" finished-at="2023-03-21T14:48:16 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T11:38:55 IST" name="openBroswer" finished-at="2023-03-21T11:39:04 IST" duration-ms="9253" status="PASS">
+        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T14:48:17 IST" name="openBroswer" finished-at="2023-03-21T14:48:27 IST" duration-ms="9932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,11 +40,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBroswer -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T11:39:04 IST" name="Login" finished-at="2023-03-21T11:39:11 IST" duration-ms="6397" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T14:48:27 IST" name="Login" finished-at="2023-03-21T14:48:32 IST" duration-ms="4721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T11:39:11 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T11:39:35 IST" duration-ms="24219" status="PASS">
+        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T14:48:32 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T14:48:53 IST" duration-ms="21104" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[createOrgNameAndIndustryandtype....TestScript Exiecution Started]]>
@@ -120,11 +54,77 @@
             </line>
           </reporter-output>
         </test-method> <!-- createOrgNameAndIndustryandtype -->
-        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T11:39:35 IST" name="CloseBroswer" finished-at="2023-03-21T11:39:37 IST" duration-ms="2009" status="PASS">
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@5158b42f]" started-at="2023-03-21T14:48:53 IST" name="CloseBroswer" finished-at="2023-03-21T14:48:54 IST" duration-ms="1397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBroswer -->
       </class> <!-- OrgnisationModule.CreateOrgnizationTest -->
     </test> <!-- Test2 -->
+    <test started-at="2023-03-21T14:48:16 IST" name="Test3" finished-at="2023-03-21T14:48:55 IST" duration-ms="38832">
+      <class name="OrgnisationModule.CreateOrgnizationTest">
+        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T14:48:17 IST" name="openBroswer" finished-at="2023-03-21T14:48:22 IST" duration-ms="5232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T14:48:22 IST" name="Login" finished-at="2023-03-21T14:48:28 IST" duration-ms="6006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T14:48:28 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T14:48:52 IST" duration-ms="24052" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgNameAndIndustryandtype....TestScript Exiecution Started]]>
+            </line>
+            <line>
+              <![CDATA[createOrgNameAndIndustryandtype...>script executed successfullly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgNameAndIndustryandtype -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@6c64cb25]" started-at="2023-03-21T14:48:52 IST" name="CloseBroswer" finished-at="2023-03-21T14:48:55 IST" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- OrgnisationModule.CreateOrgnizationTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-03-21T14:48:16 IST" name="Test1" finished-at="2023-03-21T14:48:55 IST" duration-ms="39008">
+      <class name="OrgnisationModule.CreateOrgnizationTest">
+        <test-method is-config="true" signature="openBroswer(java.lang.String)[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T14:48:17 IST" name="openBroswer" finished-at="2023-03-21T14:48:24 IST" duration-ms="6711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T14:48:24 IST" name="Login" finished-at="2023-03-21T14:48:34 IST" duration-ms="10042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="createOrgNameAndIndustryandtype()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T14:48:34 IST" name="createOrgNameAndIndustryandtype" finished-at="2023-03-21T14:48:55 IST" duration-ms="20955" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgNameAndIndustryandtype....TestScript Exiecution Started]]>
+            </line>
+            <line>
+              <![CDATA[createOrgNameAndIndustryandtype...>script executed successfullly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgNameAndIndustryandtype -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:OrgnisationModule.CreateOrgnizationTest@402bba4f]" started-at="2023-03-21T14:48:55 IST" name="CloseBroswer" finished-at="2023-03-21T14:48:55 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- OrgnisationModule.CreateOrgnizationTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

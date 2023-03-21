@@ -20,6 +20,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * its contains all reusuble methods
  * @author yusuf
@@ -286,6 +289,21 @@ public void scrollAction(WebDriver driver, WebElement element) {
 public void maximiseWindow(WebDriver driver) 
 {
 	driver.manage().window().maximize();
+}
+
+public WebDriver OpenBrowser(String Browser,WebDriver driver)
+{  
+	if(Browser.equalsIgnoreCase("chrome"))
+	{driver=WebDriverManager.chromedriver().create();
+		}
+	else if(Browser.equalsIgnoreCase("firefox"))
+	{driver=WebDriverManager.firefoxdriver().create();}
+	else if(Browser.equalsIgnoreCase("edge"))
+	{driver=WebDriverManager.edgedriver().create();}
+	else {Reporter.log ("invalid browser");}
+	
+	return driver;
+	
 }
 
 
