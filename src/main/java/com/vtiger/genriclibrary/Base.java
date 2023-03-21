@@ -25,9 +25,6 @@ public class Base {
 	public WebDriver driver ;
 	public static WebDriver sdriver;
 	
-	static {System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");}
-	static {System.setProperty("webdriver.gecko.driver","./src/main/resources/geckodriver.exe");}
-	static {System.setProperty("webdriver.edge.driver","./src/main/resources/msedgedriver.exe");}
 	public ExcelUtility eLib =new ExcelUtility();
 	public FileUtility  fLib =new FileUtility();
 	public WebDriverUtility wLib= new WebDriverUtility(); 
@@ -37,7 +34,7 @@ public class Base {
 	public OrgnizationPage orgnizationPage;
 	public CreateOrgnizationPage co;
 
-	@BeforeSuite
+	@BeforeSuite 
 	public void connectDB()
 	{
 		System.out.println("------db connected----------");
