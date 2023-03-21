@@ -9,7 +9,7 @@
   </test> <!-- Test -->
   
   <test thread-count="5" name="Test3" parallel="true">
-  <parameter name="Browser" value="edge"></parameter>
+  <parameter name="Browser" value="chrome"></parameter>
     <classes>
       <class name="OrgnisationModule.CreateOrgnizationTest"/>
     </classes>
